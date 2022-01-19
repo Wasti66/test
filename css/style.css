@@ -1,0 +1,33 @@
+html{
+	scroll-behavior:smooth;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	
+	font-family: 'Raleway', sans-serif;
+}
+
+section{
+	padding-top:75px;
+	padding-bottom:75px;
+}
+.custom-font-italic{
+	font-family: 'Kaushan Script', cursive!important;
+}
+
+@media (max-width: 576px){
+	#home .display-2{
+		font-size: 2.8rem!important;
+	}
+	#home h2{
+		font-size: 1rem!important;
+	}
+}
+
+
+
+
